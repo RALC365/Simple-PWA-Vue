@@ -17,3 +17,6 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### PWA Builder
+[Create list of icons to the different devices](https://www.pwabuilder.com/imageGenerator)
