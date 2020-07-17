@@ -7,10 +7,17 @@
       >
         <v-icon>arrow_back</v-icon>
       </v-btn>
+      
       <v-toolbar-title >
         <span>CropChien</span>
       </v-toolbar-title>
+      
       <v-spacer></v-spacer>
+      
+      <v-btn icon v-if="$route.name=='post'" @click="$router.push({name:'camera'})">
+        <v-icon>camera_alt</v-icon>
+      </v-btn>
+
     </v-toolbar>
 
     <v-content>
